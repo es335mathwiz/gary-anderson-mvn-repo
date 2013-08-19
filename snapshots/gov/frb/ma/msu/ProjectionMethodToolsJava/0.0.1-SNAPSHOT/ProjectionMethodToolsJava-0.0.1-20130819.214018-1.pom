@@ -1,0 +1,63 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>gov.frb.ma.msu</groupId>
+  <artifactId>ProjectionMethodToolsJava</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>ProjectionMethodToolsJava</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+    	<groupId>math.nist.gov</groupId>
+    	<artifactId>Jama</artifactId>
+    	<version>1.0.3</version>
+    </dependency>
+    <dependency>
+	<groupId>org.apache.commons</groupId>
+	<artifactId>commons-math</artifactId>
+	<version>2.0</version>
+</dependency>
+    <dependency>
+    	<groupId>ooNumMethods</groupId>
+    	<artifactId>OONumericalMethods</artifactId>
+    	<version>1.0</version>
+    </dependency>
+    <dependency>
+    	<groupId>net.sourceforge</groupId>
+    	<artifactId>ujmp</artifactId>
+    	<version>0.2.5</version>
+    </dependency>
+    <dependency>
+    	<groupId>com.grepcode</groupId>
+    	<artifactId>mtj</artifactId>
+    	<version>0.9.14</version>
+    </dependency>
+  </dependencies>
+ 
+   <distributionManagement>
+       <snapshotRepository>
+           <id>snapshots-repo</id>
+<url>file:///msu/res1/Software/mavenRepositories/gary-anderson-mvn-repo/snapshots</url>
+       </snapshotRepository>
+       <repository>
+           <id>repo</id>
+<url>file:///msu/res1/Software/mavenRepositories/gary-anderson-mvn-repo/releases</url>
+       </repository>
+   </distributionManagement>
+
+
+</project>
